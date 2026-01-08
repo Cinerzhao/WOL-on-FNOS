@@ -9,10 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # 用于 SSH 连接
-  dartssh2: ^2.10.0
-  # 用于保存设置 (新增)
+  dartssh2: ^2.8.2
   shared_preferences: ^2.2.0
+
 
 flutter:
   uses-material-design: true
